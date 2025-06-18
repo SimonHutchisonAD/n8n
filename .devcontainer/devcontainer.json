@@ -4,6 +4,7 @@
 	"service": "n8n",
 	"workspaceFolder": "/workspaces",
 	"mounts": [
+		"type=bind,source=C:/Payapps/n8n-nodes-erpconnect,target=/home/node/.n8n/custom/n8n-nodes-erpconnect,consistency=cached",
 		"type=bind,source=${localWorkspaceFolder},target=/workspaces,consistency=cached",
 		"type=bind,source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,consistency=cached",
 		"type=bind,source=${localEnv:HOME}/.n8n,target=/home/node/.n8n,consistency=cached"
